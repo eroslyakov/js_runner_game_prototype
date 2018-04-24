@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Runner</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="css/dusty.css" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+        <h2 id="score"></h2>
+        <p id="status"></p>
+        <div id="game-over"></div>
+        <canvas id="player-canvas"></canvas>
+        <canvas id="enemy-canvas"></canvas>
+        <canvas id="background-canvas"></canvas>
+        <img class="sprite-image" src="./img/running-character.png" id="character-sprite" />
+        <img class="sprite-image" src="./img/ramona-runner.png" id="enemy" />
+        <img class="sprite-image" src="./img/background.png" id="background" />
+    </div>
+    <script src="./js/sprite.js"></script>
+    <script src="./js/physics.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
